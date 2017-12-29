@@ -16,6 +16,8 @@ One way to understand this is that Intel x86/64 processors, like most out-of-ord
 
 ![](/assets/format2.PNG)
 
+
+
 Both processor 1 and processor 2 reorder the memory operations. And processor 2 executes `r2 = X` before processor 1 executes `X = 1` resulting at that both `r1` and `r2` to be 0.
 
 It's all well and good to be told this kind of thing might happen, but there's nothing like seeing it with your own eyes. That's why we've written a small sample program to show this type of reordering actually happening.
