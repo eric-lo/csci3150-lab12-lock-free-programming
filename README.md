@@ -6,5 +6,7 @@ In this lab, you will learn:
 
 * ABA Problem
 
+* Memory Fence
+
 \(Prepared by Zhou Xuxuan\)
 
