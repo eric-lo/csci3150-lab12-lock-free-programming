@@ -6,5 +6,6 @@
 * [lock-free vs spin-lock](lock-free-vs-spin-lock.md)
 * [Lock-free Stack](lock-free-stack.md)
 * [ABA problem](aba-problem.md)
+* [Memory Fence](memory-fence.md)
 * [Reference](reference.md)
 
