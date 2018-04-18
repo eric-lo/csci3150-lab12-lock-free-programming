@@ -3,7 +3,7 @@
 So, given a piece of code, how do you know if it's lock-based or lock-free? Let's first see two examples. Both of them are multi-threads get access to a shared variable and do the addition on it. Here is the version by using lock-free programming.
 
 ```
-1  #inlcude<stdio.h>
+1  #include<stdio.h>
 2  #include<stdatomic.h>
 3  #include<pthread.h>
 4
